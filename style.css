@@ -1730,6 +1730,15 @@ img {
 
     .f-grid { grid-template-columns: 1fr; }
     .f-links { grid-template-columns: repeat(2, 1fr); }
+
+    /* Кнопка в шапке на мобильных — не растягивается на весь экран */
+    header .btn-primary {
+        max-width: 220px;
+        width: auto;
+        padding: 10px 16px;
+        font-size: 0.9rem;
+        margin-left: auto;
+    }
 }
 
 @media (max-width: 560px) {
