@@ -94,15 +94,25 @@ img {
 }
 
 .preloader-content .brand {
-    font-size: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-weight: 800;
-    color: #38bdf8;
     letter-spacing: 0.05em;
     margin-bottom: 1.5rem;
-    display: block;
+    line-height: 1.1;
 }
 
-.preloader-content .brand span {
+.preloader-content .brand-top {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #38bdf8;
+    letter-spacing: 0.08em;
+    margin-bottom: 4px;
+}
+
+.preloader-content .brand-bottom {
+    font-size: 1.75rem;
     color: #0f172a;
 }
 
@@ -151,14 +161,24 @@ img {
 }
 
 .logo {
-    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     font-weight: 800;
-    color: #0f172a;
     letter-spacing: -0.02em;
+    line-height: 1.1;
 }
 
-.logo span {
+.logo-top {
+    font-size: 0.85rem;
+    font-weight: 700;
     color: #38bdf8;
+    letter-spacing: 0.08em;
+}
+
+.logo-bottom {
+    font-size: 1.5rem;
+    color: #0f172a;
 }
 
 .nav {
@@ -1426,7 +1446,9 @@ img {
 
 .f-brand .logo {
     margin-bottom: 12px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .f-desc {
