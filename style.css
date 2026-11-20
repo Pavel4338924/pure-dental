@@ -161,24 +161,29 @@ img {
 }
 
 .logo {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
     font-weight: 800;
     letter-spacing: -0.02em;
     line-height: 1.1;
 }
 
+.logo > span {
+    display: block !important;
+}
+
 .logo-top {
-    font-size: 0.85rem;
-    font-weight: 700;
-    color: #38bdf8;
-    letter-spacing: 0.08em;
+    font-size: 0.85rem !important;
+    font-weight: 700 !important;
+    color: #38bdf8 !important;
+    letter-spacing: 0.08em !important;
+    margin-bottom: 2px !important;
 }
 
 .logo-bottom {
-    font-size: 1.5rem;
-    color: #0f172a;
+    font-size: 1.5rem !important;
+    color: #0f172a !important;
 }
 
 .nav {
@@ -1446,9 +1451,13 @@ img {
 
 .f-brand .logo {
     margin-bottom: 12px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+}
+
+.f-brand .logo > span {
+    display: block !important;
 }
 
 .f-desc {
