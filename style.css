@@ -1570,6 +1570,21 @@ img {
     }
 }
 
+/* === FIX: кнопка в шапке на мобильных === */
+@media (max-width: 900px) {
+    .header .nav-container .btn-primary,
+    .header .btn-primary,
+    header .btn.btn-primary,
+    #header .btn-primary {
+        max-width: 150px !important;
+        width: auto !important;
+        padding: 8px 14px !important;
+        font-size: 0.85rem !important;
+        margin-left: auto !important;
+        box-sizing: border-box !important;
+    }
+}
+
 /* Placeholders (no photos) */
 .screen-placeholder {
     height: 320px;
