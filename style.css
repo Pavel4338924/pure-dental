@@ -1747,3 +1747,15 @@ img {
     .hero-stats { flex-direction: column; gap: 16px; }
     .stats-row { flex-direction: column; gap: 16px; }
 }
+
+/* === FIX: кнопка в шапке на мобильных === */
+@media (max-width: 900px) {
+    .header .nav-container .btn-primary {
+        max-width: 200px !important;
+        width: auto !important;
+        padding: 10px 16px !important;
+        font-size: 0.9rem !important;
+        margin-left: auto !important;
+        box-sizing: border-box !important;
+    }
+}
