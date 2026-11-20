@@ -1,0 +1,19 @@
+# Git
+.git/
+
+# Dependencies
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Deploy scripts (optional - keep if you want)
+# deploy.bat
+# deploy.ps1
